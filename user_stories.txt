@@ -1,0 +1,52 @@
+User stories 1: 
+As a person,
+So that I can use a bike,
+I'd like a docking station to release a bike.
+
+Nouns: person, bike, docking station
+Methods: use, and release
+
+Objects	 | Messages
+Person	 |
+Bike     |	use
+Docking station |  release
+
+user > docking station > release bike > use bike
+
+USer stories 2:
+As a person,
+So that I can use a good bike,
+I'd like to see if a bike is working
+
+Nouns: person, bike , bike_status
+Methods:  use, working
+
+Objects	 | Messages
+Person   |
+Bike     |	use
+Bike_status | working_status
+
+person >> check bike status >> good bike >> use
+                            >> bad bike  >> check another bike
+
+
+As a person want to change my bike if it's not working. 
+As a person, I want to report my bike if it's not working.
+As a person want a way to rent a bike from the docking station.
+As a person want to return my bike to the docking station. 
+As a person want to know if the docking station is full.
+As a person, I only want to be able to pay if a bike is available. 
+As a person want to know if a bike is available from the docking station.
+As a repair employee, I want to know which bikes have been reported broken.
+As a repair employee, I want different docking stations to have a different set number of bikes,
+ depending on traffic.
+As a repair employee, once a bike has been reported broken, I don't want the docking station to release it. 
+
+
+
+
+Write down all the nouns in the User Stories
+ Write down all the verbs in the User Stories
+ Draw a table like the one above
+ Organise the nouns and verbs into Objects and Messages within the table
+ Draw a diagram that shows how your Objects will use Messages to communicate with one another
